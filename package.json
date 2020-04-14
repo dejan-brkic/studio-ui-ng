@@ -41,7 +41,7 @@
     "angular2-moment": "^1.7.0",
     "core-js": "^2.4.1",
     "flatten": "^1.0.2",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "moment": "^2.19.2",
     "moment-timezone": "^0.5.14",
     "ngx-cookie-service": "^1.0.9",
