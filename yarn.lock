@@ -402,12 +402,12 @@ angular-tree-component@^6.0.0:
     mobx ">=3"
     mobx-angular ">=1"
 
-angular2-moment@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/angular2-moment/-/angular2-moment-1.7.0.tgz#6e620430cc21efc65ed3a68b5c09f3f3ef7a8256"
-  integrity sha512-CwCs2KfzVsB2VMtW/eKmd7EYJf8vGvhXpwCgkTUEt0wpRBd4ad4lVdkrqeooL0zgbjxGlCHp3EJuRdEwUGDr+Q==
+angular2-moment@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/angular2-moment/-/angular2-moment-1.9.0.tgz#d198a4d9bc825f61de19106ac7ea07a78569f5a1"
+  integrity sha512-ybPjYizpKVWAI2Z4AqxAS6s3FMkF3+zRpfvxX1wIdSJUFjl83XxQ5f2yn7retX68NSYZZ/JTK9KGnvOzZfrIZw==
   dependencies:
-    moment "^2.16.0"
+    moment "^2.19.3"
 
 ansi-html@0.0.7:
   version "0.0.7"
@@ -4493,10 +4493,15 @@ moment-timezone@^0.5.14:
   dependencies:
     moment ">= 2.9.0"
 
-moment@*, "moment@>= 2.9.0", moment@>=2.14.0, moment@^2.16.0, moment@^2.19.2:
+moment@*, "moment@>= 2.9.0", moment@>=2.14.0, moment@^2.19.2:
   version "2.19.2"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.19.2.tgz#8a7f774c95a64550b4c7ebd496683908f9419dbe"
   integrity sha512-Rf6jiHPEfxp9+dlzxPTmRHbvoFXsh2L/U8hOupUMpnuecHQmI6cF6lUbJl3QqKPko1u6ujO+FxtcajLVfLpAtA==
+
+moment@^2.19.3:
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
