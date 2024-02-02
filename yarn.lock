@@ -393,14 +393,13 @@ amdefine@>=0.0.4:
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
 
-angular-tree-component@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/angular-tree-component/-/angular-tree-component-6.0.0.tgz#3370032c7384c3f57cf79343cf263df9c41496fe"
-  integrity sha1-M3ADLHOEw/V895NDzyY9+cQUlv4=
+angular-tree-component@^8.5.6:
+  version "8.5.6"
+  resolved "https://registry.yarnpkg.com/angular-tree-component/-/angular-tree-component-8.5.6.tgz#b32ea769e17b8e4462b31b5b67c17269a7295fa5"
+  integrity sha512-cxNem6872diZz9kIGqrjSJbKt0P3WSq9wTqZIeVJ8zsddI4Y6ShAVZlZNXUMRyJq246c9pJ6JJEAOzKVLk9xgA==
   dependencies:
-    lodash "4.17.4"
-    mobx ">=3"
-    mobx-angular ">=1"
+    lodash "^4.17.11"
+    mobx "^4.15.1"
 
 angular2-moment@^1.7.0:
   version "1.7.0"
@@ -4162,15 +4161,20 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@4.17.4, lodash@^4.0.0, lodash@^4.11.1, lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.3.0, lodash@^4.5.0, lodash@~4.17.4:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
-  integrity sha1-eCA6TRwyiuHYbcpkYONptX9AVa4=
-
 lodash@^3.8.0:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
   integrity sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
+
+lodash@^4.0.0, lodash@^4.11.1, lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.3.0, lodash@^4.5.0, lodash@~4.17.4:
+  version "4.17.4"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+  integrity sha1-eCA6TRwyiuHYbcpkYONptX9AVa4=
+
+lodash@^4.17.11:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 lodash@^4.2.1:
   version "4.17.11"
@@ -4476,15 +4480,10 @@ mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkd
   dependencies:
     minimist "0.0.8"
 
-mobx-angular@>=1:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/mobx-angular/-/mobx-angular-1.9.0.tgz#d4195d4bbf66b489777eed7400c4f52a65bf1252"
-  integrity sha1-1BldS79mtIl3fu10AMT1KmW/ElI=
-
-mobx@>=3:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/mobx/-/mobx-3.3.1.tgz#c38fc1a287a0dda3f5d4b85efe1137fedd9dcdf0"
-  integrity sha1-w4/Booeg3aP11Lhe/hE3/t2dzfA=
+mobx@^4.15.1:
+  version "4.15.7"
+  resolved "https://registry.yarnpkg.com/mobx/-/mobx-4.15.7.tgz#933281268c3b4658b6cf2526e872cf78ea48ab95"
+  integrity sha512-X4uQvuf2zYKHVO5kRT5Utmr+J9fDnRgxWWnSqJ4oiccPTQU38YG+/O3nPmOhUy4jeHexl7XJJpWDBgEnEfp+8w==
 
 moment-timezone@^0.5.14:
   version "0.5.14"
